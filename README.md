@@ -9,8 +9,8 @@ For more details on the algorithm, check out our [preprint](https://arxiv.org/ab
 
 If you make use of this code or the MultiplexSAGE algorithm in your work, please cite the following paper:
 
-     @article{gallo2022multisage,
-              title={MultiSAGE: a multiplex embedding algorithm for inter-layer link prediction},
+     @article{gallo2022multiplexsage,
+              title={MultiplexSAGE: a multiplex embedding algorithm for inter-layer link prediction},
               author={Gallo, Luca and Latora, Vito and Pulvirenti, Alfredo},
               journal={arXiv preprint arXiv:2206.13223},
                year={2022}
