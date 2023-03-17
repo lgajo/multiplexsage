@@ -30,10 +30,10 @@ You can run MultiplexSage inside a docker image:
 
 The example_multiplexsage.sh contains example usages of the model. In this example, the algorithm task is intra-layer and inter-layer link prediction, which is an unsupervised task. 
 
-#### Model 
+### Model 
 The user must specify a --model flag. Currently, only the mean aggregator is provided, but we plan to extend the code to other aggregating functions.
 
-#### Data
+### Data
 Two input files have to be provided to the model:
 
 1) multi-G.json -- A networkx-specified json file describing the input graph. Edges have an attribute to categorize them as intra-layer and inter-layer, as well as an attribute to define whether they are in the training or in the test set.
@@ -41,6 +41,6 @@ Two input files have to be provided to the model:
 
 The flags --n_layers specifies the number of layers in the multiplex network, while --n_try flag can be used to select a specific graph if multiple train-test splits of the same network are considered.
 
-#### Acknowledgements
+### Acknowledgements
 
 This code is based on a fork of the [GraphSAGE code](https://github.com/williamleif/GraphSAGE), which is described in this [paper](https://arxiv.org/abs/1706.02216).
